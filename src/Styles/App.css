@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    background-color: var(--bgColor);
+}
+
+.cardContainer {
+    /* background-color: red; */
+    margin-top: 140px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+}
+
+:root {
+    --navColor: #262626;
+    --bgColor: #333;
+    --textColor: #fff;
+}
