@@ -34,7 +34,7 @@ export default [
         difficulty: 5,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at tempus dolor. Vivamus commodo ex ac urna tristique porta. Mauris non egestas ante. Donec at ligula eget ligula lobortis viverra nec ut libero. Proin tristique viverra nisl, porta malesuada mauris eleifend ut. Donec quis ante non quam pharetra placerat.",
         tech: ["Html", "CSS", "JavaScript"],
-        url: "https://github-profile-cards-blond.vercel.app"
+        url: "https://snowinee.github.io/Calculator-Project/"
     },
     {
         id: 5,
