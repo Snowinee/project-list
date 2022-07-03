@@ -9,13 +9,42 @@
     position: relative;
     margin-bottom: 60px;
 }
+
+.profiles {
+    width: 100%;
+    position: relative;
+    height: 230px;
+}
+
 .card img {
     width: 100%;
     height: 230px;
     object-fit: cover;
 }
+
+.profiles:hover .icons {
+    opacity: 1 !important;
+}
+
+.card > .profiles .icons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    justify-content: space-between;
+    gap: 10px;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+.card > .profiles > .icons i {
+    color: var(--navColor);
+    font-size: 1.5rem;
+}
 .cardContent {
     padding: 10px 20px 0 20px;
+    cursor: default;
 }
 
 .cardHeader {
@@ -24,7 +53,7 @@
     align-items: center;
 }
 
-.cardHeader a {
+.cardHeader h2 {
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--textColor);

@@ -12,10 +12,16 @@ function Card(props) {
 
     return (
         <div className="card">
-            <img src={props.coverImg} alt='Project Cover'/>
+            <div className="profiles">
+                <img src={props.coverImg} alt='Project Cover'/>
+                <div className='icons'>
+                    <a href={props.url_repo} rel="noopener noreferrer" target="_blank"><i className="fa-brands fa-github"></i></a>
+                    <a href={props.url} rel="noopener noreferrer" target="_blank"><i className="fa-solid fa-cloud"></i></a>
+                </div>
+            </div>
             <div className='cardContent'>
                 <div className='cardHeader'>
-                    <a href={props.url} target="_blank">{props.name}</a>
+                    <h2>{props.name}</h2>
                     <div className='difficulty'>
                         <Rating name="read-only" value={props.difficulty} size="small" readOnly />
                         <p>Difficulty</p>
