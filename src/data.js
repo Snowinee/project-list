@@ -42,7 +42,7 @@ const data = [
     },
     {
         id: 5,
-        coverImg: "https://i.ibb.co/xm6D5y6/image.png",
+        coverImg: "https://i.ibb.co/THLrTXv/capture-3.gif",
         name: "Clicker",
         difficulty: 3,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at tempus dolor. Vivamus commodo ex ac urna tristique porta. Mauris non egestas ante. Donec at ligula eget ligula lobortis viverra nec ut libero. Proin tristique viverra nisl, porta malesuada mauris eleifend ut. Donec quis ante non quam pharetra placerat.",
@@ -69,6 +69,16 @@ const data = [
         tech: ["Html", "CSS", "ReactJS"],
         url: "https://journal-app-react-js-mu.vercel.app",
         url_repo: "https://github.com/Snowinee/Journal-App---ReactJS"
+    },
+    {
+        id: 8,
+        coverImg: "https://i.ibb.co/88ZSKvv/capture-1.gif",
+        name: "Fighting Game",
+        difficulty: 1,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at tempus dolor. Vivamus commodo ex ac urna tristique porta. Mauris non egestas ante. Donec at ligula eget ligula lobortis viverra nec ut libero. Proin tristique viverra nisl, porta malesuada mauris eleifend ut. Donec quis ante non quam pharetra placerat.",
+        tech: ["Html", "CSS", "JavaScript"],
+        url: "https://snowinee.github.io/Fighting-Game/",
+        url_repo: "https://github.com/Snowinee/Fighting-Game"
     },
 ]
 
