@@ -2,7 +2,7 @@ import './Styles/App.css'
 import Header from './Components/Header.js'
 import Container from '@mui/material/Container';
 import Card from './Components/Card.js'
-import data from './data.js'
+import data from './data.json'
 
 function App() {
 
