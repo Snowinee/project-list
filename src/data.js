@@ -80,6 +80,16 @@ const data = [
         url: "https://snowinee.github.io/Fighting-Game/",
         url_repo: "https://github.com/Snowinee/Fighting-Game"
     },
+    {
+        id: 9,
+        coverImg: "https://i.ibb.co/z4F38hv/capture.gif",
+        name: "Tip Calculator",
+        difficulty: 1,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at tempus dolor. Vivamus commodo ex ac urna tristique porta. Mauris non egestas ante. Donec at ligula eget ligula lobortis viverra nec ut libero. Proin tristique viverra nisl, porta malesuada mauris eleifend ut. Donec quis ante non quam pharetra placerat.",
+        tech: ["Html", "CSS", "JavaScript"],
+        url: "https://snowinee.github.io/Tip-Calculator/",
+        url_repo: "https://github.com/Snowinee/Tip-Calculator"
+    },
 ]
 
 export default data;
